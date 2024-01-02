@@ -1,0 +1,85 @@
+body, h1, button, input, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Pokemon Fire Red Regular';
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    /*background-image: url("C:/Users/omark/OneDrive/Desktop/pokeinfo assets/d3e1i4c-f6dee4ac-16dc-49f2-a398-220f7c65e860.jpg");
+    */
+}
+
+.styled-image { 
+    border: none; 
+    max-width: 100%;
+    background-color: white;
+    padding: 10px;
+    margin:10px;
+}
+
+#pokemonName {
+    padding: 10px;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#fetch {
+    color: white;
+    font-family: 'Pokemon Fire Red Regular';
+    font-size: 20px;
+    background-color: red;
+    border: #007bff;;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#fetch:hover {
+    background-color: blue;
+}
+
+.result {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    /*background-color: rgba(255, 255, 255, 0.8);
+    */
+    padding: 10px;
+    border:none;
+    /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    */
+    margin: 20px auto;
+    max-width: 300px; 
+}
+
+
+#pokemon_name {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid black;
+    outline: none;
+    background: transparent;
+    color: black;
+    margin-top: 30px;
+}
+
+.searching {
+    margin-bottom: 50px;
+}
+
+
+.stats {
+    display: inline-block;
+    width: 60px;
+    background-color: white;
+    border: none;
+    font-size: 24px;
+    margin: 10px;
+}

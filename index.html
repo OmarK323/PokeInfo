@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Poke-Info</title>
+</head>
+<body>
+    <h1>Pokemon Info Fetcher</h1>
+    <div class = "searching">                   
+        <input type="text" id="pokemon_name" placeholder="Enter Name or #">
+        <button id="fetch">Fetch Pokemon</button>
+    </div>
+    <div class = "pokeresult">
+        <div class = "res1">
+            <p id= "name" class="result"></p>
+            <p id= "type" class = " stats result"></p>
+            <p id = "type2" class = "stats result extra"></p>
+        </div>
+        <div class = "res1">
+            <img id="sprite" src="" class="styled-image">
+        </div>
+        <div class = "res2">
+            <p id="hp" class="stats"></p>
+            <p id="attack" class="stats"></p>
+            <p id="defense" class="stats"></p>
+            <p id="spattack" class="stats"></p>
+            <p id="spdefense" class="stats"></p>
+            <p id="speed" class="stats"></p>
+            <p id="stat_ttl" class = "stats"></p>
+        </div>
+        <div class = "statnames">
+            <p id="hp_ol" class = "stats"></p>
+            <p id="attack_ol" class = "stats"></p>
+            <p id="defense_ol" class = "stats"></p>
+            <p id="spattack_ol" class = "stats"></p>
+            <p id="spdefense_ol" class = "stats"></p>
+            <p id="speed_ol" class = "stats"></p>
+            <p id="stat_ttl_ol" class="stats"></p>
+        </div>
+        <div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

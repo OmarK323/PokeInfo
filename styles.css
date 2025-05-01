@@ -1,10 +1,11 @@
 @font-face {
     font-family: "Pokemon FireRed Font";
-    src: url("pokeinfo assets/pokemon-fire-red-cufonfonts/pokemon_fire_red.ttf") format("truetype"),
-         url("pokeinfo assets/pokemon-fire-red-cufonfonts/Pokemon_Fire_Red.woff") format("woff"),
-         url("pokeinfo assets/pokemon-fire-red-cufonfonts/Pokemon-Fire-Red.woff2") format("woff2");
-
+    src: url("pokeinfo%20assets/pokemon-fire-red-cufonfonts/Pokemon-Fire-Red.woff2") format("woff2"),
+         url("pokeinfo%20assets/pokemon-fire-red-cufonfonts/Pokemon_Fire_Red.woff") format("woff"),
+         url("pokeinfo%20assets/pokemon-fire-red-cufonfonts/pokemon_fire_red.ttf") format("truetype");
+    font-display: swap;
 }
+
 
 
 body, h1, button, input, p {

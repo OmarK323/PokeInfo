@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Pokemon FireRed Font";
+    src: url("../pokeinfo assets/pokemon-fire-red-cufonfonts/pokemon_fire_red.ttf") format("truetype");
+}
+
+
 body, h1, button, input, p {
     margin: 0;
     padding: 0;
